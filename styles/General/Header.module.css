@@ -1,8 +1,21 @@
 .container {
+    margin-top: -15.9%;
     position: inherit;
-    width: 1440px;
+    width: inherit;
     height: 189px;
-    left: 0px;
-    top: 0px;
     border: 1px red solid;
+}
+.subcontainer {
+    width: inherit;
+    margin-top: 0px;
+    height: 115px;
+    border: 1px red solid;
+}
+.semicircle {
+        margin: auto;
+        margin-bottom: -150px;
+        height: 189px;
+        width: 504px;
+        border-radius: 0px 0px 150px 150px;
+        background-color: green;
 }
