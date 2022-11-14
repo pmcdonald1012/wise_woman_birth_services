@@ -1,21 +1,17 @@
-.container {
-    margin-top: -15.9%;
-    position: inherit;
-    width: inherit;
-    height: 189px;
-    border: 1px red solid;
-}
+
 .subcontainer {
     width: inherit;
-    margin-top: 0px;
     height: 115px;
-    border: 1px red solid;
+    border: 1px solid #D2D2D2;
 }
 .semicircle {
-        margin: auto;
-        margin-bottom: -150px;
-        height: 189px;
-        width: 504px;
-        border-radius: 0px 0px 150px 150px;
-        background-color: green;
+    margin: auto;
+    margin-bottom: -190px;
+    height: 189px;
+    width: 400px;
+    border-radius: 0px 0px 30rem 30rem;
+    border: 1px solid #D2D2D2;
+}
+.logo {
+    position: relative;
 }
