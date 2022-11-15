@@ -1,11 +1,21 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Alumni+Sans:wght@100&family=Beau+Rivage&display=swap');
 .subcontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     width: inherit;
-    height: 115px;
     border: 1px solid #D2D2D2;
+    font-family: 'Alumni Sans';
+    font-weight: 400;
+    line-height: 38px;
+    color: #000000;
 }
 .semicircle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin: auto;
+    background-color: white;
     margin-bottom: -190px;
     height: 189px;
     width: 400px;
@@ -14,4 +24,50 @@
 }
 .logo {
     position: relative;
+    border-radius: 120px;
 }
+.semicircle h2 {
+    padding: 10px;
+    margin: 0px;
+    font-family: 'Beau Rivage', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    background-color: white;
+    color: #933466;
+}
+.semicircle h3 {
+    margin: 0px; 
+    font-family: 'Beau Rivage', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    color: #933466;
+}
+.namecontainer {
+    display: flex; 
+    flex-direction: column;
+}
+#home_btn{
+   margin-left: auto;
+   margin-right: auto;
+}
+#about_btn{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ #services_btn{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ #contact_btn{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ #spacer{ 
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100x;
+ }
