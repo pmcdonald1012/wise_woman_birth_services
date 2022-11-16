@@ -1,97 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Alumni+Sans:wght@100&family=Beau+Rivage&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Alumni+Sans:wght@100&family=Beau+Rivage&display=swap");
 .subcontainer {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: inherit;
-    border-top: 2px solid #D2D2D2;
-    border-right: 2px solid #D2D2D2;
-    border-left: 2px solid #D2D2D2;
-    font-family: 'Alumni Sans';
-    font-weight: 400;
-    line-height: 38px;
-    color: #000000;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: inherit;
+  border-top: 2px solid #d2d2d2;
+  border-right: 2px solid #d2d2d2;
+  border-left: 2px solid #d2d2d2;
+  font-family: "Alumni Sans";
+  font-weight: 400;
+  line-height: 38px;
+  color: #000000;
 }
 .semicircle {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
-    background-color: white;
-    margin-bottom: -190px;
-    height: 189px;
-    width: 400px;
-    border-radius: 0px 0px 30rem 30rem;
-    border-bottom: 2px solid #D2D2D2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+  margin-bottom: -190px;
+  height: 189px;
+  width: 31vw;
+  max-width: 400px;
+  border-radius: 0px 0px 30rem 30rem;
+  border-bottom: 2px solid #d2d2d2;
 }
 .logo {
-    position: relative;
-    margin-top: .2rem;
-    border-radius: 120px;
+  position: relative;
+  margin-top: 0.2rem;
+  border-radius: 120px;
 }
 .semicircle h2 {
-    margin: 0px;
-    font-family: 'Beau Rivage', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 64px;
-    background-color: white;
-    color: #933466;
+  margin: 0px;
+  font-family: "Beau Rivage", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  background-color: white;
+  color: #933466;
 }
 .semicircle h3 {
-    margin: 0px; 
-    font-family: 'Beau Rivage', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 64px;
-    color: #933466;
+  margin: 0px;
+  font-family: "Beau Rivage", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  color: #933466;
 }
 .namecontainer {
-    margin-top: .5rem;
-    display: flex; 
-    flex-direction: column;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
-#home_btn{
-   cursor: pointer;
-   color: #000000;
-   font-style: normal;
-   font-size: 32px;
-   border-bottom: 1px #D2D2D2 solid;
-   margin-left: auto;
-   margin-right: auto;
+#home_btn {
+  cursor: pointer;
+  color: #000000;
+  font-style: normal;
+  font-size: 32px;
+  border-bottom: 1px #d2d2d2 solid;
+  margin-left: auto;
+  margin-right: auto;
 }
-#about_btn{
-    cursor: pointer;
-    color: #000000;
-    font-style: normal;
-    font-size: 32px;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 1px #D2D2D2 solid;
- }
- #services_btn{
-    cursor: pointer;
-    color: #000000;
-    font-style: normal;
-    font-size: 32px;
-    border-bottom: 1px #D2D2D2 solid;
-    margin-left: auto;
-    margin-right: auto;
- }
- #contact_btn{
-    cursor: pointer;
-    color: #000000;
-    font-style: normal;
-    font-size: 32px;
-    margin-left: auto;
-    border-bottom: 1px #D2D2D2 solid;
-    margin-right: auto;
- }
- #spacer{ 
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 100x;
- }
+#about_btn {
+  cursor: pointer;
+  color: #000000;
+  font-style: normal;
+  font-size: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px #d2d2d2 solid;
+}
+#services_btn {
+  cursor: pointer;
+  color: #000000;
+  font-style: normal;
+  font-size: 32px;
+  border-bottom: 1px #d2d2d2 solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contact_btn {
+  cursor: pointer;
+  color: #000000;
+  font-style: normal;
+  font-size: 32px;
+  margin-left: auto;
+  border-bottom: 1px #d2d2d2 solid;
+  margin-right: auto;
+}
+#spacer {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100x;
+}
+/* .btn:hover {
+    scale: 1.2;
+
+ } */
+.link {
+  color: #000000;
+  text-decoration: none;
+}
+.link:hover {
+  color: #933466;
+}
