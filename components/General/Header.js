@@ -2,7 +2,9 @@ import s from "../../styles/General/Header.module.css"
 import Logo from '../../public/Logo.png'
 import Image from "next/image"
 import { Beau_Rivage } from '@next/font/google'
+import { IoIosArrowDown } from 'react-icons/io'
 const inter = Beau_Rivage({ weight: '400'})
+const iconStyle = { color: "#933466", height: "20px" }
 const Header = () => {
   return (
     <> 
@@ -22,8 +24,9 @@ const Header = () => {
           </h2>
           <div id={s.spacer}></div>
           <div id={s.spacer}></div>
+          <div id={s.spacer}></div>
           <h2 id={s.services_btn}>
-            <btn>Services</btn>
+            <btn>Services<IoIosArrowDown style={iconStyle}/></btn>
             </h2>
           <h2 id={s.contact_btn}>
             <btn>Contact</btn>

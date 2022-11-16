@@ -4,7 +4,9 @@
     align-items: center;
     flex-direction: row;
     width: inherit;
-    border: 1px solid #D2D2D2;
+    border-top: 2px solid #D2D2D2;
+    border-right: 2px solid #D2D2D2;
+    border-left: 2px solid #D2D2D2;
     font-family: 'Alumni Sans';
     font-weight: 400;
     line-height: 38px;
@@ -20,14 +22,14 @@
     height: 189px;
     width: 400px;
     border-radius: 0px 0px 30rem 30rem;
-    border: 1px solid #D2D2D2;
+    border-bottom: 2px solid #D2D2D2;
 }
 .logo {
     position: relative;
+    margin-top: .2rem;
     border-radius: 120px;
 }
 .semicircle h2 {
-    padding: 10px;
     margin: 0px;
     font-family: 'Beau Rivage', cursive;
     font-style: normal;
@@ -47,23 +49,41 @@
     color: #933466;
 }
 .namecontainer {
+    margin-top: .5rem;
     display: flex; 
     flex-direction: column;
 }
+
 #home_btn{
+   color: #000000;
+   font-style: normal;
+   font-size: 32px;
+   border-bottom: 1px #D2D2D2 solid;
    margin-left: auto;
    margin-right: auto;
 }
 #about_btn{
+    color: #000000;
+    font-style: normal;
+    font-size: 32px;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: 1px #D2D2D2 solid;
  }
  #services_btn{
+    color: #000000;
+    font-style: normal;
+    font-size: 32px;
+    border-bottom: 1px #D2D2D2 solid;
     margin-left: auto;
     margin-right: auto;
  }
  #contact_btn{
+    color: #000000;
+    font-style: normal;
+    font-size: 32px;
     margin-left: auto;
+    border-bottom: 1px #D2D2D2 solid;
     margin-right: auto;
  }
  #spacer{ 
