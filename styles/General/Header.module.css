@@ -55,6 +55,7 @@
 }
 
 #home_btn{
+   cursor: pointer;
    color: #000000;
    font-style: normal;
    font-size: 32px;
@@ -63,6 +64,7 @@
    margin-right: auto;
 }
 #about_btn{
+    cursor: pointer;
     color: #000000;
     font-style: normal;
     font-size: 32px;
@@ -71,6 +73,7 @@
     border-bottom: 1px #D2D2D2 solid;
  }
  #services_btn{
+    cursor: pointer;
     color: #000000;
     font-style: normal;
     font-size: 32px;
@@ -79,6 +82,7 @@
     margin-right: auto;
  }
  #contact_btn{
+    cursor: pointer;
     color: #000000;
     font-style: normal;
     font-size: 32px;
