@@ -46,15 +46,66 @@
 .pinkDiv p {
   margin-left: 6rem;
   margin-right: 6rem;
+  margin-bottom: 6rem;
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #8f8f8f;
+}
+#servicesContainer {
+  margin-top: 3rem;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 75.1rem;
+  display: flex;
+  flex-direction: row;
+}
+.tcontainer {
+  margin-top: 8rem;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(147, 52, 102, 0.17);
+  width: 900px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tcontainer h1 {
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #933466;
+}
+
+.tcontainer h3 {
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #aaaaaa;
+}
+.crContainer {
+  width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20rem;
+}
+.crContainer h3 {
   font-family: "Alumni Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
-  color: #8f8f8f;
-}
-#servicesContainer {
-  display: flex;
-  flex-direction: row;
-  width: fit-content;
+
+  color: #000000;
 }

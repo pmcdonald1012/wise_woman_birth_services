@@ -1,7 +1,6 @@
-import Image from "next/image";
-import BabyFeet from "../../public/BabyFeet.jpg";
 import s from "../../styles/Home/Home.module.css";
 import { BirthServicesCard } from "./BirthServicesCard";
+import CarouselComp from "./Carousel";
 import { PPCCard } from "./PPCCard";
 export const Landing = () => {
   return (
@@ -27,6 +26,10 @@ export const Landing = () => {
       <div id={s.servicesContainer}>
         <BirthServicesCard />
         <PPCCard />
+      </div>
+      <div className={s.tcontainer}>
+        <h1>Testimonials</h1>
+        <CarouselComp />
       </div>
     </>
   );

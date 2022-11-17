@@ -4,6 +4,7 @@ import { Landing } from "../components/Home/Landing";
 import Image from "next/image";
 import BabyFeet from "../public/BabyFeet.jpg";
 import s from "../styles/Home/Home.module.css";
+import { ContactBtn } from "../components/Home/ContactBtn";
 //Home page/landing page
 export default function Home() {
   return (
@@ -24,7 +25,11 @@ export default function Home() {
           </div>
         </div>
         <Landing />
+        <ContactBtn />
       </main>
+      <div className={s.crContainer}>
+        <h3>© 2023 Wise Woman Birth Services. All Rights Reserved.</h3>
+      </div>
     </div>
   );
 }
