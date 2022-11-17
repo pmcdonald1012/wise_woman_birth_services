@@ -16,3 +16,40 @@
   background-image: url("../../public/BabyFeet.jpg");
   background-size: cover;
 }
+.pinkDiv {
+  padding-top: 15%;
+  padding-bottom: 10%;
+  height: 70vh;
+  width: 1204px;
+  background-color: rgba(147, 52, 102, 0.17);
+}
+#whiteDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: inherit;
+  height: 60vh;
+}
+.pinkDiv h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #933466;
+}
+.pinkDiv p {
+  margin-left: 6rem;
+  margin-right: 6rem;
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #8f8f8f;
+}

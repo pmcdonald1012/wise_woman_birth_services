@@ -23,6 +23,7 @@ export default function Home() {
             <div className={s.imgBox}></div>
           </div>
         </div>
+        <Landing />
       </main>
     </div>
   );
