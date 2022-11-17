@@ -53,3 +53,8 @@
   line-height: 38px;
   color: #8f8f8f;
 }
+#servicesContainer {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
