@@ -1,1 +1,1 @@
-Access the [Deplpoyed Version](https://wise-woman-birth-services.vercel.app/)
+Access the [Deployed Version](https://wise-woman-birth-services.vercel.app/)
