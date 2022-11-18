@@ -17,10 +17,10 @@ const CarouselComp = () => {
             <div className={s.embla__slide}>
               <div className={s.slide_container}>
                 <p>
-                  “ Ornare aenean euismod elementum nisi quis. Quam quisque id
+                  Ornare aenean euismod elementum nisi quis. Quam quisque id
                   diam vel quam elementum pulvinar etiam non. Libero id faucibus
                   nisl tincidunt eget. tempus urna et pharetra pharetra massa
-                  massa. “
+                  massa.
                 </p>
                 <h3>Erica</h3>
               </div>
@@ -28,10 +28,10 @@ const CarouselComp = () => {
             <div className={s.embla__slide}>
               <div className={s.slide_container}>
                 <p>
-                  " Ornare elementum nisi quis. Quam quisque id diam vel quam
+                  Ornare elementum nisi quis. Quam quisque id diam vel quam
                   elementum pulvinar etiam non. Libero id faucibus nisl
                   tincidunt eget. Egestas sed tempus urna et pharetra pharetra
-                  massa massa. “
+                  massa massa.
                 </p>
                 <h3>Marty</h3>
               </div>
@@ -39,10 +39,10 @@ const CarouselComp = () => {
             <div className={s.embla__slide}>
               <div className={s.slide_container}>
                 <p>
-                  “ Ornare aenean euismod elementum nisi quis. Quam quisque id
+                  Ornare aenean euismod elementum nisi quis. Quam quisque id
                   diam vel quam elementum pulvinar etiam non. Libero id faucibus
                   nisl tincidunt eget. Egestas sed tempus urna et pharetra
-                  pharetra massa massa. “
+                  pharetra massa massa.
                 </p>
                 <h3>Jason</h3>
               </div>
