@@ -1,6 +1,7 @@
 import Header from "../components/General/Header";
 import Head from "next/head";
 import Landing from "../components/About/Landing";
+import Profile from "../components/About/Profile";
 const about = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const about = () => {
       <main>
         <Header />
         <Landing />
+        <Profile />
       </main>
     </div>
   );

@@ -1,4 +1,4 @@
-import s from "../../styles/About/About.module.css";
+import s from "../../styles/About/Landing.module.css";
 const Landing = () => {
   return (
     <div className={s.container}>
