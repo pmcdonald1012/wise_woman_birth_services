@@ -1,0 +1,41 @@
+.container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: inherit;
+  height: 548px;
+}
+.img1Cont {
+  width: 280px;
+  height: 482px;
+  background-image: url("../../public/CartoonHand.png");
+  background-size: cover;
+}
+.aboutCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  height: 380px;
+  border-top: 1px solid #d2d2d2;
+  border-bottom: 1px solid #d2d2d2;
+}
+.img2Cont {
+  width: 280px;
+  height: 482px;
+  background-image: url("../../public/CartoonBaby.png");
+  background-size: cover;
+}
+
+.aboutCont h1 {
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #565656;
+}
