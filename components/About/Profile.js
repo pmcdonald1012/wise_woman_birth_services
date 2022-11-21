@@ -4,7 +4,7 @@ const Profile = () => {
     <div className={s.container}>
       <div className={s.img}></div>
       <div className={s.title}>
-        <h1>Hi, I'm Lisa</h1>
+        <h1>{"Hi, I'm Lisa"}</h1>
         <div>
           <p>Sub-Title</p>
         </div>
