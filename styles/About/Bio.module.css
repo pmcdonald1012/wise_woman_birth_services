@@ -1,0 +1,102 @@
+.container {
+  height: 1800px;
+  width: inherit;
+}
+.subContainer1 {
+  background-color: rgba(147, 52, 102, 0.17);
+  width: inherit;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.subContainer2 {
+  background-color: #e2e2e2;
+  width: inherit;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* pink div */
+
+.title {
+  font-family: "Beau Rivage";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 129px;
+  color: #933466;
+  margin: 6rem;
+}
+.bioPara {
+  font-family: "Angkor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  margin-right: 3rem;
+  color: rgba(35, 31, 32, 0.72);
+}
+
+/* middle */
+
+.title2 {
+  display: flex;
+  margin: 0.1rem;
+  justify-content: center;
+  font-family: "Angkor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 87px;
+  color: #933466;
+}
+
+/* grey div */
+
+.quoteContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  border-top: 2px #d2d2d2 solid;
+  border-bottom: 2px #d2d2d2 solid;
+}
+.quote {
+  font-family: "Angkor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+}
+.subContainer2 p {
+  font-family: "Angkor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #565656;
+  margin: 3rem;
+}
+
+.copyRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #000000;
+}

@@ -2,6 +2,7 @@ import Header from "../components/General/Header";
 import Head from "next/head";
 import Landing from "../components/About/Landing";
 import Profile from "../components/About/Profile";
+import Bio from "../components/About/Bio";
 const about = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const about = () => {
         <Header />
         <Landing />
         <Profile />
+        <Bio />
       </main>
     </div>
   );

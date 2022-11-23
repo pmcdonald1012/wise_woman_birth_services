@@ -45,3 +45,8 @@
   background: #933466;
   border-radius: 10px;
 }
+.greyline {
+  height: inherit;
+  border-bottom: 1px #d2d2d2 solid;
+  width: inherit;
+}
