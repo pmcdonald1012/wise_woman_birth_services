@@ -1,0 +1,70 @@
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 450px;
+  height: 520px;
+}
+
+.nameInput {
+  width: 358px;
+  height: 50px;
+  border-radius: 25px;
+  background: #d9d9d9;
+  border: #d9d9d9 solid;
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 24px;
+  padding: 0.5rem;
+  color: #ffffff;
+}
+.emailInput {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background: #d9d9d9;
+  width: 358px;
+  height: 50px;
+  border-radius: 25px;
+  border: #d9d9d9 solid;
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.messInput {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background: #d9d9d9;
+  border: #d9d9d9 solid;
+  border-radius: 25px;
+  width: 358px;
+  height: 150px;
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.submitBtn {
+  width: 358px;
+  margin-top: 4rem;
+  height: 50px;
+  background: #933466;
+  border-radius: 25px;
+  border: none;
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  cursor: pointer;
+  color: #ffffff;
+}

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Landing from "../components/Contact/Landing";
 import Header from "../components/General/Header";
 const contact = () => {
   return (
@@ -10,6 +11,7 @@ const contact = () => {
       </Head>
       <main>
         <Header />
+        <Landing />
       </main>
     </div>
   );

@@ -1,0 +1,37 @@
+.cont {
+  margin-top: 10rem;
+  height: 700px;
+  width: inherit;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subCont {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mailLogoCont {
+  margin: 5rem;
+}
+.contactFormCont {
+  margin: 5rem;
+}
+.logo {
+  width: 450px;
+  height: 520px;
+  background-image: url("../../public/MailLogo.png");
+  background-size: cover;
+}
+.getInTouch {
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #933466;
+}
