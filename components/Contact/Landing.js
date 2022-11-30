@@ -1,6 +1,9 @@
 import s from "../../styles/Contact/Contact.module.css";
 import ContactForm from "./ContactForm";
+import Modal from "./Modal";
+import { useState } from "react";
 const Landing = () => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className={s.cont}>
       <div className={s.getInTouch}>Get In Touch</div>
@@ -10,7 +13,8 @@ const Landing = () => {
         </div>
         <div className={s.contactFormCont}>
           <div>
-            <ContactForm />
+            <ContactForm showModal={showModal} setShowModal={setShowModal} />
+            <Modal showModal={showModal} />
           </div>
         </div>
       </div>
