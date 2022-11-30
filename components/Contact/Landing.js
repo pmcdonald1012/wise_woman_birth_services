@@ -1,24 +1,31 @@
 import s from "../../styles/Contact/Contact.module.css";
 import ContactForm from "./ContactForm";
-import Modal from "./Modal";
 import { useState } from "react";
+import ContactModal from "./Modal";
 const Landing = () => {
-  const [showModal, setShowModal] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
   return (
-    <div className={s.cont}>
-      <div className={s.getInTouch}>Get In Touch</div>
-      <div className={s.subCont}>
-        <div className={s.mailLogoCont}>
-          <div className={s.logo}></div>
-        </div>
-        <div className={s.contactFormCont}>
-          <div>
-            <ContactForm showModal={showModal} setShowModal={setShowModal} />
-            <Modal showModal={showModal} />
+    <>
+      <div className={s.cont}>
+        <div className={s.getInTouch}>Get In Touch</div>
+        <div className={s.subCont}>
+          <div className={s.mailLogoCont}>
+            <div className={s.logo}></div>
+          </div>
+          <div className={s.contactFormCont}>
+            <div>
+              <ContactForm setModalShow={setModalShow} modalShow={modalShow} />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <ContactModal
+        modalShow={modalShow}
+        setModalShow={setModalShow}
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+    </>
   );
 };
 
