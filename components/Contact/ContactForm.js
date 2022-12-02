@@ -2,11 +2,12 @@ import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import s from "../../styles/Contact/ContactForm.module.css";
 
-const ContactForm = ({ setModalShow }) => {
+const ContactForm = ({ setShowModal }) => {
   const [hasValue, sethasValue] = useState("");
   const [hasValue2, sethasValue2] = useState("");
   const [hasValue3, sethasValue3] = useState("");
   const [noValue, setNoValue] = useState(true);
+  const [clicked, setClicked] = useState(false);
 
   const form = useRef();
 
@@ -16,13 +17,14 @@ const ContactForm = ({ setModalShow }) => {
     } else {
       setNoValue(true);
     }
-    console.log(noValue);
   }, [hasValue, hasValue2, hasValue3]);
 
   const sendEmail = (e) => {
     e.preventDefault();
     if (!noValue) {
+      setClicked(false);
       e.target.value = "";
+      setShowModal(true);
       emailjs
         .sendForm(
           "service_x4bqfck",
@@ -38,10 +40,11 @@ const ContactForm = ({ setModalShow }) => {
             sethasValue3("");
           },
           (error) => {
-            console.log(error.text);
+            alert("Sorry there was an error, please try again later");
           }
         );
     } else {
+      setClicked(true);
       setNoValue(true);
     }
   };
@@ -87,7 +90,9 @@ const ContactForm = ({ setModalShow }) => {
           value={hasValue3}
         />
       </label>
-      <div>{noValue ? "Please fill out all information" : null} </div>
+      <div className={s.errorMessage}>
+        {noValue && clicked ? "Please fill out all information" : null}
+      </div>
       <input className={s.submitBtn} type="submit" value="Send"></input>
     </form>
   );

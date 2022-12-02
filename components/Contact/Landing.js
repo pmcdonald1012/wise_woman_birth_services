@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 import { useState } from "react";
 import ContactModal from "./Modal";
 const Landing = () => {
-  const [modalShow, setModalShow] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
       <div className={s.cont}>
@@ -14,17 +14,19 @@ const Landing = () => {
           </div>
           <div className={s.contactFormCont}>
             <div>
-              <ContactForm setModalShow={setModalShow} modalShow={modalShow} />
+              <ContactForm setShowModal={setShowModal} showModal={showModal} />
             </div>
           </div>
         </div>
       </div>
       <ContactModal
-        modalShow={modalShow}
-        setModalShow={setModalShow}
-        show={modalShow}
-        onHide={() => setModalShow(false)}
+        showModal={showModal}
+        setShowModal={setShowModal}
+        onHide={() => setShowModal(false)}
       />
+      <div className={s.crContainer}>
+        <h3>© 2023 Wise Woman Birth Services. All Rights Reserved.</h3>
+      </div>
     </>
   );
 };

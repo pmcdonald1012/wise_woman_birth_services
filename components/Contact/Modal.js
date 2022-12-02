@@ -1,19 +1,30 @@
-import { Modal } from "react-bootstrap";
-const ContactModal = (props) => {
+import s from "../../styles/Contact/Modal.module.css";
+import { motion } from "framer-motion";
+const ContactModal = ({ showModal, onHide }) => {
+  if (!showModal) return null;
+
   return (
-    <Modal
-      {...props}
-      size="sm"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <h4>Thank You!</h4>
-      </Modal.Header>
-      <Modal.Body>
-        <p>Check your email inbox for more information</p>
-      </Modal.Body>
-    </Modal>
+    <>
+      <div className={s.overlay}>
+        <div className={s.blur}></div>
+      </div>
+      <div className={s.modal}>
+        <h1>Thank You!</h1>
+        <h2>Your messsage has been sent!</h2>
+
+        <motion.button
+          onClick={onHide}
+          className={s.closeBtn}
+          whileHover={{
+            scale: 1.1,
+            backgroundColor: "white",
+            color: "#933466",
+          }}
+        >
+          <div>Okay</div>
+        </motion.button>
+      </div>
+    </>
   );
 };
 

@@ -1,0 +1,58 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: blue;
+  z-index: 1000;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background: #933466;
+  justify-content: center;
+  align-items: center;
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  padding: 1rem;
+  color: #ffffff;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+  background-color: black;
+  z-index: 1000;
+}
+.blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+}
+.closeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  background-color: #933466;
+  color: white;
+  margin-top: 2rem;
+  width: 5rem;
+  border: none;
+  height: 2rem;
+  cursor: pointer;
+  border: 1px white solid;
+  border-radius: 2rem;
+}
