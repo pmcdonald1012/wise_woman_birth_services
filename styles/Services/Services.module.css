@@ -15,3 +15,17 @@
   position: absolute;
   width: 1200px;
 }
+.sectTitleCont {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 208px;
+  background: #fcd9df;
+  font-family: "Alumni Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 115px;
+  color: #933466;
+}
