@@ -1,5 +1,7 @@
 import Header from "../components/General/Header";
 import Head from "next/head";
+import Landing from "../components/Services/Landing";
+import s from "../styles/Services/Services.module.css";
 const services = () => {
   return (
     <div>
@@ -9,7 +11,10 @@ const services = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header />
+        <div className={s.headerCont}>
+          <Header />
+        </div>
+        <Landing />
       </main>
     </div>
   );
