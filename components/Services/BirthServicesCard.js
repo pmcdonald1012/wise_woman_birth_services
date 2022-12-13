@@ -1,11 +1,12 @@
 import s from "../../styles/Services/BirthServicesCard.module.css";
+import Link from "next/link";
+import { motion } from "framer-motion";
 const BirthServicesCard = () => {
   return (
     <div className={s.cont}>
       <div className={s.leftCard}>
-        <div className={s.title}>Birth Services</div>
+        <div className={s.title}>Post-Partum Care</div>
         <div className={s.desc}>
-          {" "}
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -14,7 +15,17 @@ const BirthServicesCard = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </div>
-        <div className={s.contactBtn}>Contact Now</div>
+        <motion.div
+          whileHover={{
+            scale: 1.1,
+            backgroundColor: "#933466",
+            color: "#ffffff",
+          }}
+        >
+          <Link href={"/contact"} className={s.contactBtn}>
+            <div className={s.contactBtn}>Contact Now</div>
+          </Link>
+        </motion.div>
       </div>
       <div className={s.rightCard}>
         <div className={s.img}></div>

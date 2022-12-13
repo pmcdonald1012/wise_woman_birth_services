@@ -6,8 +6,8 @@
   flex-direction: row;
 }
 .leftCard {
-  background: rgba(198, 198, 198, 0.4);
-  border-radius: 25px;
+  border-radius: 10px;
+  border: 4px #efefef solid;
   margin: 2rem;
   width: 500px;
   height: 700px;
@@ -24,9 +24,9 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  background: #fcd9df;
+  /* background: #efefef; */
+  border-bottom: 3px #efefef solid;
   border-radius: 10px;
-
   width: inherit;
   height: 75px;
   font-family: "Alumni Sans";
@@ -50,8 +50,9 @@
 
 .img {
   border-radius: 25px;
-  background-image: url("../../public/HoldingBaby.jpg");
-  background-size: contain;
+  background-image: url("../../public/PPCCare.jpg");
+  background-size: cover;
+  background-position: -400px;
   width: 500px;
   height: inherit;
 }
@@ -67,6 +68,6 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
-
   color: #000000;
+  text-decoration: none;
 }

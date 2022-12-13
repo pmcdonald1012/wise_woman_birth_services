@@ -3,6 +3,7 @@ import Head from "next/head";
 import Landing from "../components/Services/Landing";
 import s from "../styles/Services/Services.module.css";
 import BirthServicesCard from "../components/Services/BirthServicesCard";
+import PostPartumCareCard from "../components/Services/PostPartumCareCard";
 const services = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const services = () => {
           <div>Services</div>
         </div>
         <BirthServicesCard />
+        <PostPartumCareCard />
       </main>
     </div>
   );
