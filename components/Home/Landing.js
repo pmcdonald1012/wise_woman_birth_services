@@ -8,6 +8,7 @@ export const Landing = () => {
       <div className={s.pinkDiv}>
         <div id={s.whiteDiv}>
           <h3>Wise Wise Woman Birth Services</h3>
+          <div id={s.line}></div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. At
@@ -21,8 +22,8 @@ export const Landing = () => {
             vel turpis nunc eget lorem. Id cursus metus aliquam eleifend mi.
           </p>
         </div>
-        <h3>Services</h3>
       </div>
+      <h3 id={s.servTitle}>Services</h3>
       <div id={s.servicesContainer}>
         <BirthServicesCard />
         <PPCCard />
