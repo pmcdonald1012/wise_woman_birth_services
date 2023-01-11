@@ -1,14 +1,15 @@
 .container {
+  width: inherit;
+  height: 100vh;
+  margin-bottom: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: inherit;
-  height: 700px;
 }
 .img {
   margin: auto;
-  width: 500px;
-  height: 500px;
+  width: 50rem;
+  height: 50rem;
   border-radius: 50%;
   background-image: url("../../public/Profile.jpeg");
   background-size: cover;
