@@ -17,7 +17,7 @@ const Profile = () => {
       >
         <h1>{"Hi, I'm Lisa"}</h1>
         <div>
-          <p>Sub-Title</p>
+          <p>DONA Certified Doula</p>
         </div>
       </div>
     </div>

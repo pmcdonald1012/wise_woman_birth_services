@@ -10,16 +10,15 @@ export const Landing = () => {
           <h3>Wise Wise Woman Birth Services</h3>
           <div id={s.line}></div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. At
-            consectetur lorem donec massa sapien faucibus. Accumsan lacus vel
-            facilisis volutpat. Purus faucibus ornare suspendisse sed nisi lacus
-            sed viverra tellus. Blandit turpis cursus in hac habitasse platea
-            dictumst quisque sagittis. Justo laoreet sit amet cursus. Turpis
-            egestas sed tempus urna et pharetra. Hac habitasse platea dictumst
-            vestibulum rhoncus. Sit amet dictum sit amet justo donec enim diam
-            vulputate. Ut etiam sit amet nisl purus in mollis nunc. Vel pharetra
-            vel turpis nunc eget lorem. Id cursus metus aliquam eleifend mi.
+            Welcome to Wise Woman Birth Services. I provide birth and postpartum
+            doula services. Bringing a baby into this world requires a lot of
+            preparation. I am here to help women along that path-the path to
+            being a wise woman who is ready to birth her baby and raise her
+            child. As a birth doula, I want to be there to help you believe in
+            yourself and in your body, remove fear and stress, and be confident
+            in your ability to birth. I want to hold space for you. Space to
+            achieve the birth you desire. I also am there for you postpartum,
+            caring for you and your baby in whatever way you need.
           </p>
         </div>
       </div>
