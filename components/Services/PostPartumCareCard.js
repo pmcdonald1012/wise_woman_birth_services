@@ -8,7 +8,7 @@ const PostPartumCareCard = () => {
         <div className={s.img}></div>
       </div>
       <div className={s.leftCard}>
-        <div className={s.title}>Post-Partum Care</div>
+        <div className={s.title}>Postpartum Care</div>
         <div className={s.desc}>
           Wise Woman Birth Services offers postpartum doula support that helps
           families through the first weeks after the birth of their child. The
