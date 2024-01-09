@@ -24,7 +24,7 @@ const CarouselComp = () => {
                   support where we needed it. She is amazing and I highly
                   recommend her as a doula to any family.
                 </p>
-                <h3>~L.K.</h3>
+                <h3>L.K.</h3>
               </div>
             </div>
             <div className={s.embla__slide}>
@@ -36,7 +36,7 @@ const CarouselComp = () => {
                   and made pregnancy then labor and delivery during a pandemic a
                   little easier.
                 </p>
-                <h3>~C.W.</h3>
+                <h3>C.W.</h3>
               </div>
             </div>
             <div className={s.embla__slide}>
@@ -52,7 +52,7 @@ const CarouselComp = () => {
                   prepare myself for a natural labor and how to minimize time
                   spent at the hospital.
                 </p>
-                <h3>~M.P.</h3>
+                <h3>M.P.</h3>
               </div>
             </div>
           </div>
