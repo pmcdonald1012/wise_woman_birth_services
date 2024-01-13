@@ -21,12 +21,23 @@
   align-items: center;
   padding-top: 5.95rem;
 }
-.imgBox {
+.img {
   height: 50vh;
   width: 100vw;
   background-image: url("../../public/BabyFeet.jpg");
   background-size: cover;
 }
+/*
+
+
+
+
+
+
+
+
+
+*/
 .pinkDiv {
   height: 70vh;
   width: 100vw;

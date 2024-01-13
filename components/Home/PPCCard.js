@@ -18,7 +18,7 @@ export const PPCCard = () => {
         }}
       >
         <motion.div whileHover={{ scale: 1.1 }}>
-          <div id={s.title}>Post-Partum Care</div>
+          <div id={s.title}>Postpartum Care</div>
           <div id={s.img1}></div>
         </motion.div>
       </div>
