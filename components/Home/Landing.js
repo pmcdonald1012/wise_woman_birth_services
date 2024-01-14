@@ -7,7 +7,7 @@ export const Landing = () => {
     <>
       <div className={s.pinkDiv}>
         <div id={s.whiteDiv}>
-          <h3>Wise Wise Woman Birth Services</h3>
+          <h3>Wise Woman Birth Services</h3>
           <div id={s.line}></div>
           <p>
             Welcome to Wise Woman Birth Services. I provide birth and postpartum
